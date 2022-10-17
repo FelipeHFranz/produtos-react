@@ -13,7 +13,7 @@ const validarRequerido = (nome) => {
 }
 
 const validarConfirmarSenha = (senha, confirmarSenha) => {
-    return validarSenha(senha) && senha === confirmarSenha
+    return validarSenha(senha) && senha == confirmarSenha
 }
 export {
     validarSenha,

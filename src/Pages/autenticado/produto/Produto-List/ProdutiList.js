@@ -59,7 +59,7 @@ const ProdutoList = () => {
     const closeDeleteOPDialog = (value) => {
         if (value) {
             produtoService.deleteProduto(deleteProduto.id).then(res => {
-                setProdutos(produtos.filter(x => x.id !== deleteProduto.id));
+                setProdutos(produtos.filter(x => x.id != deleteProduto.id));
                 alert("Produto excluido");
             }).catch(e => {
                 console.log(e);

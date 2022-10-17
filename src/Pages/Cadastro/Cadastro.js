@@ -32,7 +32,7 @@ const Cadastro = () => {
         });;
 
 
-        if (res === true) {
+        if (res == true) {
             navigate('/login')
         }
     }
