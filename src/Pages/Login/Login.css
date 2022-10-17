@@ -1,0 +1,31 @@
+.user-login {
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #AAAAAA;
+    border-left: rgba(3, 3, 3, 0.479) 5px solid;
+    padding: 0 10px;
+    background-color: #FFF;
+}
+
+.backgrounddiv {
+    background: linear-gradient(to right top, #ffff00, #ffd300, #ffa600, #ff7521, #ff3e3e, #f50055, #d20068, #a50077, #6b0080, #000080) !important;
+    padding-top: 10%;
+    min-width: 100vh !important;
+    min-height: 100vh !important;
+}
+
+
+
+
+.subContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 0px 20px;
+    align-items: center;
+}
+
+.uibuttonLogin {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }

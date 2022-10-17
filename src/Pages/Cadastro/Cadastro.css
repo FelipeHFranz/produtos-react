@@ -1,0 +1,19 @@
+
+
+.div-cad{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid #AAAAAA;
+    border-left: rgba(3, 3, 3, 0.479) 5px solid;
+    padding: 0 10px;
+    background-color: #FFF;
+    
+}
+.div-top{
+    padding-top: 10%;
+}
+.uibuttonCad {
+    padding-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
